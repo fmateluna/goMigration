@@ -1,0 +1,19 @@
+# Migrania
+
+Migrania es una herramienta de migración para transformar proyectos entre lenguajes de programación. Su propósito es simplificar la conversión de carpetas de código fuente y mejorar las prácticas de desarrollo, proporcionando funcionalidades adicionales como pruebas de cobertura y mejoras en el código.
+
+## Funcionalidades
+
+- **Migración de Código:** Transforma el código de un lenguaje de programación a otro.
+- **Pruebas de Cobertura:** Agrega pruebas de cobertura al código migrado para garantizar su integridad.
+- **Mejoras de Código:** Implementa mejoras en las prácticas de codificación.
+- **Generación de Carpeta de Salida:** Crea una carpeta de salida con las modificaciones y mejoras realizadas.
+
+## Instalación
+
+Para utilizar Migrania, sigue estos pasos:
+
+1. Clona el repositorio:
+
+   ```bash
+   git clone https://github.com/fmateluna/goMigration.git
