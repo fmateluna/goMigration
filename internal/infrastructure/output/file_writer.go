@@ -53,7 +53,7 @@ func (fw *FileWriter) createSource(filename, content string) error {
 		fmt.Println("Creando carpeta output")
 		os.Mkdir(fw.outputDir, os.ModePerm)
 	}
-	fmt.Println("Los fuentes serán dejados en la carpeta 'output'")
+	fmt.Println("Los fuentes serán dejados en la carpeta ", fw.outputDir)
 
 	path := fw.outputDir + "/" + filename
 	if _, err := os.Stat(path); err == nil {

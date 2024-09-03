@@ -1,0 +1,17 @@
+{
+    "tasks": [
+      {
+        "task": "Migrar",
+        "prompt": "Migra los siguientes códigos fuentes : \n%s\n los cuales están en %s, debes migrar esto a %s, quiero que tu respuesta esté en el siguiente formato:\n\n@@@@NOMBRE ARCHIVO\nCONTENIDO CÓDIGO MIGRADO\n#############################################\n\nNo agregues espacios en blanco después de la última línea de código, ya que esto puede generar errores en la migración.\nNo coloques comentarios en el código, ya que esto puede generar errores en la migración.\nNo menciones sugerencias ni acciones dentro del código, si quieres realizarlo coméntalo en formato de comentario."
+      },
+      {
+        "task": "Mejorar Código",
+        "prompt": "Mejora los siguientes códigos fuentes para seguir las mejores prácticas : \n%s\n, los cuales están en %s. Quiero que tu respuesta esté en el siguiente formato\n\n@@@@NOMBRE ARCHIVO\nCONTENIDO CÓDIGO MEJORADO\n#############################################\n\nNo agregues espacios en blanco después de la última línea de código.\nNo coloques comentarios en el código a menos que sea absolutamente necesario.\nNo menciones sugerencias ni acciones dentro del código."
+      },
+      {
+        "task": "Agregar Pruebas de Cobertura",
+        "prompt": "Agrega pruebas de cobertura a los siguientes códigos fuentes: \n%s\n, los cuales están en %s. Quiero que tu respuesta esté en el siguiente formato\n\n@@@@NOMBRE ARCHIVO_TEST\nCONTENIDO PRUEBAS DE COBERTURA\n#############################################\n\nNo agregues espacios en blanco después de la última línea de código.\nNo coloques comentarios en el código a menos que sea absolutamente necesario.\nNo menciones sugerencias ni acciones dentro del código."
+      }
+    ]
+  }
+  
